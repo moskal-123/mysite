@@ -45,7 +45,7 @@ h1, h2 {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 80%;
-    margin: 0 30px;
+    margin: 0 auto;
     background: linear-gradient(lightskyblue, rgb(155, 208, 241));
     padding: 10px;
 }
