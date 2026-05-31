@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(aliceblue, rgb(212, 221, 228));
+}
+
+header {
+    background: linear-gradient(royalblue, cornflowerblue);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.link-header {
+    background: linear-gradient(silver, lightgray);
+    padding: 10px;
+    border: 2px solid navy;
+    border-radius: 5px;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.link-header:hover {
+    background: linear-gradient(rgb(148, 148, 148), rgb(168, 168, 168));
+    padding: 15px;
+    border: 4px solid navy;
+    border-radius: 5px;
+    text-decoration: none;
+    color: purple;
+    transition: all 0.25s ease-out;
+}
+
+footer {
+    background: linear-gradient(steelblue, rgb(56, 110, 153));
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 30px;
+    background: linear-gradient(lightskyblue, rgb(155, 208, 241));
+    padding: 10px;
+}
+
+.info {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double navy;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: cornflowerblue;
+}
+
+.info:hover {
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    padding: 10px;
+    border: 10px double navy;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: linear-gradient(cornflowerblue, rgb(78, 120, 197));
+    transition: all 0.25s ease-out;
+}
+
+.link-text {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.link-text:hover {
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.25s ease-out;
+}
+
+.link-text:focus {
+    text-decoration: none;
+    color: blue;
+}
+
+.link-text:visited {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.p {
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid navy;
+    padding: 15px;
+}
+
+.p:hover {
+    background: linear-gradient(white, lightgray);
+    border-radius: 5px;
+    border: 4px solid navy;
+    padding: 20px;
+    transition: all 0.25s ease-out;
+}
+
+.greeting {
+    background: linear-gradient(cornflowerblue, rgb(116, 163, 250));
+    padding: 10px;
+    text-align: justify;
+}
+
+ol {
+    background: linear-gradient(cornflowerblue, rgb(116, 163, 250));
+    color: white;
+    display: block;
+    width: 350px;
+}
+
+li {
+    padding: 2px;
+}
+
+li:hover {
+    padding: 5px;
+    border: 2px solid navy;
+    color: black;
+    background: linear-gradient(white, lightgray);
+    transition: all 0.25s ease-out;
+}
